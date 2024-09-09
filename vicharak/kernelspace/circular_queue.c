@@ -1,11 +1,12 @@
-#include <linux/module.h>
+
+#include <linux/mutex.h>
 #include <linux/fs.h>
+#include <linux/wait.h>
 #include <linux/uaccess.h>
 #include <linux/ioctl.h>
-#include <linux/slab.h>
 #include <linux/cdev.h>
-#include <linux/wait.h>
-#include <linux/mutex.h>
+#include <linux/module.h>
+#include <linux/slab.h>
 
 #define DEVICE_NAME "shad"
 #define CLASS_NAME "circular_queue_character_device"
