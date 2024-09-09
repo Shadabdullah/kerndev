@@ -184,5 +184,11 @@ static void __exit queue_exit(void) {
 module_init(queue_init);
 module_exit(queue_exit);
 
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Shad");
+MODULE_DESCRIPTION("A dynamic circular queue character device with fully blocking feature");
+MODULE_VERSION(".1");
+
+
 
 
