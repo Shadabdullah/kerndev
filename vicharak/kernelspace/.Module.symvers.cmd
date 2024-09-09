@@ -1,1 +1,0 @@
-savedcmd_/home/matrix/kerndev/vicharak/kernelspace/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/matrix/kerndev/vicharak/kernelspace/Module.symvers -T /home/matrix/kerndev/vicharak/kernelspace/modules.order -i Module.symvers -e 
